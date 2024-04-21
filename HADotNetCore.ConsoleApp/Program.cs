@@ -30,10 +30,11 @@ using System.Data.SqlClient;
 //   Console.WriteLine("------------------------------------");
 //}
 AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
-adoDotNetExample.Read();
+//adoDotNetExample.Read();
 //adoDotNetExample.Create("title", "author", "content");
-//.adoDotNetExampleUpdate(12,"test title", "test authorr", "test content");
+//adoDotNetExample.Update(1012,"test title", "test author", "test content");
 
-//adoDotNetExample.Delete(11);
-adoDotNetExample.Edit(11);
+//adoDotNetExample.Delete(13);
+//adoDotNetExample.Edit(8);
+adoDotNetExample.Edit(1);
 //Console.ReadKey();

@@ -44,7 +44,7 @@ namespace HADotNetCore.ConsoleApp
             SqlConnection connection = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
             connection.Open();
             Console.WriteLine("Connection open");
-            string query = "select *from Tbl_blog where BlogId = @BlogId";
+            string query = "select *from Tbl_blog where BlogId =@BlogId";
             SqlCommand cmd = new SqlCommand(query, connection);
             cmd.Parameters.AddWithValue("@BlogId", id);
            
